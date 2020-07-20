@@ -1,0 +1,21 @@
+insert into CUSTOMER_ACCOUNT(CUSTOMERID, first_name, last_name) values (1234, 'John', 'Wick');
+insert into CUSTOMER_ACCOUNT(CUSTOMERID, first_name, last_name) values (1235, 'Jock', 'Rayn');
+insert into CUSTOMER_ACCOUNT(CUSTOMERID, first_name, last_name) values (1236, 'Tom', 'Cruise');
+insert into CUSTOMER_ACCOUNT(CUSTOMERID, first_name, last_name) values (1237, 'Bruce', 'Wayne');
+
+insert into order_account(id, amount, created_date, rewards, CUSTOMERID) values (uuid(), 1000.0, '2020-07-17 10:20:10', 1850.0,1234);
+insert into order_account(id, amount, created_date, rewards, CUSTOMERID) values (uuid(), 2000.0, '2020-06-16 10:20:10', 3850.0,1234);
+insert into order_account(id, amount, created_date, rewards, CUSTOMERID) values (uuid(), 3000.0, '2020-05-15 10:20:10', 5850.0,1234);
+insert into order_account(id, amount, created_date, rewards, CUSTOMERID) values (uuid(), 4000.0, '2020-04-14 10:20:10', 7850.0,1234);
+insert into order_account(id, amount, created_date, rewards, CUSTOMERID) values (uuid(), 100.0, '2020-07-17 10:20:10', 50,1235);
+insert into order_account(id, amount, created_date, rewards, CUSTOMERID) values (uuid(), 200.0, '2020-06-16 10:20:10', 250.0,1235);
+insert into order_account(id, amount, created_date, rewards, CUSTOMERID) values (uuid(), 300.0, '2020-05-15 10:20:10', 450.0,1235);
+insert into order_account(id, amount, created_date, rewards, CUSTOMERID) values (uuid(), 400.0, '2020-04-14 10:20:10', 650.0,1235);
+insert into order_account(id, amount, created_date, rewards, CUSTOMERID) values (uuid(), 10.0, '2020-07-17 10:20:10', 0.0,1236);
+insert into order_account(id, amount, created_date, rewards, CUSTOMERID) values (uuid(), 50.0, '2020-06-16 10:20:10', 0.0,1236);
+insert into order_account(id, amount, created_date, rewards, CUSTOMERID) values (uuid(), 100.0, '2020-05-15 10:20:10', 50.0,1236);
+insert into order_account(id, amount, created_date, rewards, CUSTOMERID) values (uuid(), 500.0, '2020-04-14 10:20:10', 850.0,1236);
+insert into order_account(id, amount, created_date, rewards, CUSTOMERID) values (uuid(), 0.0, '2020-07-17 10:20:10', 0.0,1237);
+insert into order_account(id, amount, created_date, rewards, CUSTOMERID) values (uuid(), 50.0, '2020-06-16 10:20:10', 0.0,1237);
+insert into order_account(id, amount, created_date, rewards, CUSTOMERID) values (uuid(), 100.0, '2020-05-15 10:20:10', 50.0,1237);
+insert into order_account(id, amount, created_date, rewards, CUSTOMERID) values (uuid(), 333.0, '2020-04-14 10:20:10', 516.0,1237);
